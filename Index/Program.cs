@@ -25,6 +25,10 @@ namespace Index
                 {
                     ReadList();
                 }
+                else
+                {
+                    System.Console.WriteLine("'" + text + "' does not exist as command");
+                }
                 
                 System.Console.WriteLine("\npress 'enter' to proceed");
                 Console.ReadLine();
